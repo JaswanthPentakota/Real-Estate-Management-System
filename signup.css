@@ -1,0 +1,93 @@
+body{
+    padding-top: 100px;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+#greetings{
+    color: rgb(9, 9, 9);
+    font-family: 'Ruda', sans-serif;
+    font-weight: bold;
+}
+
+#tl{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 320px;
+    height:320px;
+    border-radius: 50%;
+    filter: blur(200px);
+    transform: translate(-60%,-40%);
+    background-color: rgb(0, 195, 255);
+    opacity: 50%;
+}
+
+#tr{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 320px;
+    height:320px;
+    border-radius: 50%;
+    filter: blur(200px);
+    transform: translate(40%,-30%);
+    opacity: 50%;
+    background-color: rgb(0, 0, 0);
+}
+
+#br{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 320px;
+    height:320px;
+    border-radius: 50%;
+    filter: blur(160px);
+    transform: translate(40%,-20%);
+    opacity: 50%;
+    background-color: rgba(166, 0, 255, 0);
+}
+
+#form input,#form span{
+    background: #73a6ad;
+    /* background-image: linear-gradient(to right,rgba(255, 255, 255, 0),rgba(219, 216, 219, 0)); */
+    background-blend-mode: multiply;
+    border: none;
+    box-shadow: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.75);
+}
+#form span{
+    color: rgb(255, 255, 255);
+}
+#video{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -20;
+    background-attachment: fixed;
+}
+#video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+#header{
+    box-shadow: 0px 2px 5px grey;
+    background-color: rgb(173, 172, 172);
+    width: 100vw;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 150px;
+    height: auto;
+}

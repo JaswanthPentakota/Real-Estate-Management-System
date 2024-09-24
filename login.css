@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap');
+
+#login{
+    display: flex;
+    flex-wrap:wrap;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+#header{
+        background-color: #326268;
+    width: 100vw;
+    z-index: 1;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+#logo label{
+    font-size: 50px;
+    padding: 0 5px;
+    color: rgb(242, 242, 242);
+}
